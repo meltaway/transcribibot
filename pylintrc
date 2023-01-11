@@ -1,0 +1,7 @@
+disable=
+	bad-indentation
+	missing-module-docstring
+	missing-class-docstring
+	missing-function-docstring
+
+indent-string='	'

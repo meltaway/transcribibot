@@ -1,0 +1,20 @@
+en:
+  locale: en-US
+  greeting: "Hello! I'm TranscribiBot.\nSend me an audio or video file and wait for me to process it. You'll receive a text file with the transcript.\n\nCommands:\n/ua - change language to Ukrainian (bot and transcript)\n/en - change language to English (bot and transcript)\n/profanity Х - set a profanity filter (0 - no filter, 1 - first letter + asterisks)\n/mode_text - set transcript mode to text (you receive a message)\n/mode_file - set transcript mode to file (you receive a file)"
+  lang_change: Language set to English (en-US).
+  pfilter_change: Profanity filter set to {pfilter_value}.
+  mode_text_change: Transcript mode set to "text".
+  mode_file_change: Transcript mode set to "file".
+  processing: Processing file...
+  read_success: File transcribed!
+  transcription: I think you said
+  errors:
+    pfilter_no_value: "Setting a profanity filter requires a value: /profanity 0 or /profanity 1"
+    pfilter_wrong_value: Please set profanity filter to either 0 or 1.
+    unknown_command: Sorry, I can't process that.
+    read_fail: Something went wrong while processing the file.
+    audio_ext_fail: Sorry, this file extension is not supported. Please use .mp3, .wav, .aiff, or .flac files.
+    video_ext_fail: Sorry, this file extension is not supported. Please send the video as a file.
+    gsr_request_fail: Could not request results from Google Speech Recognition service.
+    unknown_audio: Sorry, I couldn't understand that.
+    unsupported_file: Sorry, we don't support these files.
